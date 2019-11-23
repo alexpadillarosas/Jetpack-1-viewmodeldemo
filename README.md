@@ -1,6 +1,9 @@
 # Jetpack-1-viewmodeldemo
-Basic application showing Google recommending approach to build Android apps.
+A Basic application showing Google recommending approach to build Android apps.
 As first step we will have a look at viewmodel component.
+
+By applying the "separation of concerns" principle, the data that is now kept in the view, stay in memory when you rotate the device. Whereas the Controller (Activity / Fragment) is recreated during the life cycle of an app.
+The viewmodel used by an activity will remain in memory until the activity finishes, and as in a viewmodel app it will be until the app ends.
 
 ## This view model component can be represented in the following diagram:
 ![47261CDA-B81D-44C0-9D68-9E7A67AB4C3F](https://user-images.githubusercontent.com/4823319/69471806-c3b93700-0df7-11ea-843f-735afb49d8ae.jpg)
