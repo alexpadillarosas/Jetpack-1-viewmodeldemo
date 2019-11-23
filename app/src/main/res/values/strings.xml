@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">viewmodeldemo</string>
+    <string name="mainfragment">MainFragment</string>
+    <string name="convert">Convert</string>
+    <string name="input_your_currency">input your currency</string>
+</resources>
