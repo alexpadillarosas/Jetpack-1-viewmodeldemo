@@ -12,16 +12,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.blueradix.android.viewmodeldemo.R;
+import com.google.android.material.textfield.TextInputEditText;
 
 public class MainFragment extends Fragment {
 
     private MainViewModel mViewModel;
 
-    private EditText dollarInputEditText;
+    private TextInputEditText dollarInputEditText;
     private TextView resultTextView;
     private Button convertButton;
 
@@ -47,8 +47,6 @@ public class MainFragment extends Fragment {
         convertButton = getView().findViewById(R.id.convertButton);
 
         resultTextView.setText(mViewModel.getResult().toString());
-
-
 
         convertButton.setOnClickListener(new View.OnClickListener() {
             @Override
